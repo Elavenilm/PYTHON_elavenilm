@@ -1,0 +1,52 @@
+#---PYTHON OUTPUT FUNCTION---
+
+# 1.python print statement
+
+print("python is powerful")
+print("python programming language")
+
+# 2.python print()with end parameter
+
+print("good morning!",end=" ")
+print("it is rainy today")
+
+# 3.python print()with sep parameter
+
+print("new year","2025","see you soon!",sep=".")
+print("helle","world!",sep=",")
+
+# 4.print python variable and literals
+
+number=10.5
+name="python"
+
+# print literals
+print(5)
+
+# print variables
+print(number)
+print(name)
+
+# 5.print concatenated strings
+
+print("python " + "programming!")
+
+# 6.output formatting
+
+x=5
+y=10
+print("the value of x is {} and y is {}".format(x,y))
+
+
+
+#---PYTHON INPUT FUNCTION---
+
+# 1.using input() to take user input
+
+num=input("Enter a number:")
+print("You Entered:",num)
+print("Data type of num:",type(num))
+
+# 2.python user input
+
+num=int(input("enter a number:"))
